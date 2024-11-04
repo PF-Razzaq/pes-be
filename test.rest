@@ -1,0 +1,71 @@
+###
+
+GET http://127.0.0.1:8000/api/fsp/
+Content-Type: application/json
+
+{"FSPID": "515"}
+
+###
+
+GET http://127.0.0.1:8000/api/events_list_30/
+Content-Type: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/events_list_hold/
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:8000/api/adminlogin/
+Content-Type: application/json
+
+{ "password": "southheadaugust96" }
+
+###
+
+GET http://127.0.0.1:8000/api/test_token
+Content-Type: application/json
+Authorization: Token d00100af26e7ccd9291dc473b2004429ca166b45
+
+{}
+
+
+###
+
+GET http://127.0.0.1:8000/api/locations/
+Content-Type: application/json
+
+
+###
+
+GET http://127.0.0.1:8000/api/getlocations/
+Content-Type: application/json
+
+
+###
+
+GET http://127.0.0.1:8000/api/search_pes_events/?
+Content-Type: application/json
+Authorization: Token d00100af26e7ccd9291dc473b2004429ca166b45
+
+###
+
+GET http://127.0.0.1:8000/api/countries/
+Content-Type: application/json
+Authorization: Token d00100af26e7ccd9291dc473b2004429ca166b45
+=======
+
+###
+
+POST https://beta.progressiveestatesolutions.com:8000/api/fsps_list1/
+Content-Type: application/json
+
+{
+    "username": "te11",
+    "password": "te11",
+    "status": 1,
+    "locationid": "42",
+    "routingid": "100"
+}
+
